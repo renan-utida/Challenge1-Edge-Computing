@@ -10,8 +10,11 @@ Challenge 1 - 1ESPG - Edge Computing
 **Integrantes:**
 
 Renan Dias Utida - RM 558540
+
 Gustavo Melanda da Nova - RM 556081
+
 Murilo Justi - RM 554512
+
 Fabricio Muniz - RM 555017
 
 # Sensores Inteligentes para Pistas de Corrida da Formula E
