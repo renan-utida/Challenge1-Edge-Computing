@@ -26,16 +26,23 @@ Este projeto utiliza um microcontrolador para monitorar e registrar condições 
 # Funcionalidades
 **Monitoramento Ambiental:**
 Temperatura: Medição contínua da temperatura ambiente.
+
 Umidade: Medição contínua da umidade relativa do ar.
+
 Exibição: Dados exibidos no display LCD com indicadores de níveis.
+
 
 **Detecção de Movimento:**
 Sensor PIR: Detecta a passagem do veículo pela linha de chegada.
+
 Cálculo de Velocidade: Estimativa da velocidade do veículo usando um potenciômetro.
+
 
 **Registro de Dados:**
 EEPROM: Armazena dados de temperatura e umidade a cada minuto.
+
 Exibição Serial: Mostra os tempos de volta e o tempo total registrado.
+
 
 **Alarme e Indicadores:**
 Buzzer: Emite um som quando o veículo é detectado.
@@ -47,28 +54,38 @@ LCD: Exibe uma animação de introdução com sons de boas-vindas.
 
 # Componentes Utilizados
 **Microcontrolador:** Placa compatível com Arduino.
+
 **Display LCD:** LiquidCrystal I2C 16x2.
+
 **RTC (Relógio de Tempo Real):** RTC DS1307.
+
 **Sensor de Temperatura e Umidade:** DHT22.
+
 **Sensor PIR:** Para detecção de movimento.
+
 **Buzzer:** Para sinalização sonora.
+
 **LED Laranja:** Indicador visual.
+
 **EEPROM:** Para armazenamento persistente dos dados.
+
 **Potenciômetro:** Para ajustar a velocidade do veículo.
+
 
 
 # Requisitos e Dependências
 **Hardware**
-Placa compatível com Arduino (ex: Arduino Uno)
-Display LCD 16x2 com interface I2C
-RTC DS1307
-Sensor DHT22
-Sensor PIR
-Buzzer
-LED Laranja
-EEPROM
-Potenciômetro
+Placa compatível com Arduino (ex: Arduino Uno),
+Display LCD 16x2 com interface I2C,
+RTC DS1307,
+Sensor DHT22,
+Sensor PIR,
+Buzzer,
+LED Laranja,
+EEPROM,
+Potenciômetro,
 Jumpers e protoboard para conexões
+
 
 **Software**
 Arduino IDE
@@ -82,9 +99,13 @@ Bibliotecas Arduino:
 
 # Funcionamento do Sistema
 **Inicialização:** Ao ligar, o sistema exibirá uma animação de introdução no display LCD e emitirá um som de boas-vindas.
+
 **Monitoramento Contínuo:** O sistema monitorará continuamente a temperatura e a umidade, exibindo os valores no display LCD.
+
 **Detecção de Veículo:** Quando o sensor PIR detectar movimento, o sistema calculará a velocidade do veículo e exibirá os tempos de volta e totais.
+
 **Alarme e Indicadores:** O buzzer emitirá um som e o LED laranja acenderá brevemente para indicar a detecção do veículo.
+
 **Registro de Dados:** A cada minuto, os dados de temperatura e umidade serão registrados na EEPROM.
 
 
